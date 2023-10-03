@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    .homecontainer{
+        // background-color: aquamarine;
+        flex: 6;
+        .widgets,.charts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .charts{
+            padding: 5px 20px;
+        }
+        .listcontainer{
+            box-shadow: 21px 21px 67px 0px rgba(199, 197, 197, 0.25);
+            padding: 20px;
+            margin: 20px;
+        }
+        .listtitle{
+            font-size: 500;
+            color: gray;
+            
+            .lastest{
+                padding: 15px;
+            }
+
+        }
+    }
+}
